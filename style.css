@@ -224,10 +224,12 @@ footer {
     linear-gradient(178deg, #000000, black);
 }
 .topfooter {
-  margin: 0px;
   display: flex;
   padding: 90px 1px;
   justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  align-items: center;
 }
 .agence {
   width: 30%;
