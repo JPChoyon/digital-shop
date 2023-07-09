@@ -77,7 +77,7 @@
   background-color: black;
   position: static;
   color: #becfd0;
-  padding: 10px;
+  padding: 70px 20px;
   margin: auto;
   align-items: center;
 }
@@ -143,4 +143,41 @@
 .servicediv img {
   width: 100px;
   padding: 20px;
+}
+.appoint {
+  width: 75%;
+  padding: 30px;
+  background-color: rgb(245, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: -60px;
+  color: white;
+}
+.appointcall img {
+  width: 100px;
+}
+.appointcall {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-right: 3px solid rgb(56, 55, 55);
+}
+.calldes {
+  font-size: 13px;
+}
+.calldes > span {
+  font-weight: bold;
+  font-size: 25px;
+}
+.appointdes {
+  padding: 25px;
+  font-size: 20px;
+}
+.appointbtn button {
+  padding: 15px 50px;
+  border-radius: 35px;
+  border: 0;
 }
